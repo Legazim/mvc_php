@@ -13,6 +13,10 @@ class ComposerStaticInit396a606266c6785ab9abed23bfc42356
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'WilliamCosta\\DatabaseManager\\' => 29,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -38,6 +42,10 @@ class ComposerStaticInit396a606266c6785ab9abed23bfc42356
     );
 
     public static $prefixDirsPsr4 = array (
+        'WilliamCosta\\DatabaseManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/william-costa/database-manager/src',
+        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',

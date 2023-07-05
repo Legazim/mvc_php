@@ -30,6 +30,6 @@ $obRouter->get('/depoimentos', [
 // Rota dinamica
 $obRouter->post('/depoimentos', [
     function ($request) {
-        return new Response(200, Pages\Testimony::getTestimonies());
+        return new Response(200, Pages\Testimony::insertTestmony($request));
     }
 ]);

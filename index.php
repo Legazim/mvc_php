@@ -1,21 +1,8 @@
 <?php
 
-require __DIR__ . "/vendor/autoload.php";
+require __DIR__ . '/includes/app.php';
 
 use App\Http\Router;
-use App\Utils\View;
-
-// Carrega variáveis de ambiente
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
-
-// Define a constante de URL do projeto
-define('URL', $_ENV['URL']);
-
-// Define o valor padrão das variaveis
-View::init([
-    'URL' => URL
-]);
 
 // Inicia o router
 $obRouter = new Router(URL);
